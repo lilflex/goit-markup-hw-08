@@ -68,6 +68,7 @@
   transition-timing-function: var(--transition-timing-function);
 }
 
-.modal-btn-close:hover .icon {
+.modal-btn-close:hover .icon,
+.modal-btn-close:focus .icon {
   fill: var(--accent-color);
 }
